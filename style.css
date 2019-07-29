@@ -1,0 +1,149 @@
+/* CSS for common elements across pages */
+
+.navbar-brand{
+    background-color: darkcyan;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.text-decoration-none{
+    color:grey;
+    margin-left: 10px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color:darkcyan;
+    padding: 10px;
+}
+
+.text{
+    padding: 1em;
+    color:grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+/* CSS for large individual text blocks */
+
+#summary{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#comparison{
+    background-color: whitesmoke;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.compare-2 {
+    margin-left: 15px;
+}
+
+#data{
+    background-color: whitesmoke;
+}
+
+/* CSS for visualization section on most pages */
+
+#visualizations{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#space{
+    padding:10px;
+}
+
+/* CSS for tables */
+
+.table{
+    table-layout: auto;
+    font-size-adjust: inherit;
+}
+
+/* CSS for images */
+
+.img-1 {
+    height: 150px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.img-2 {
+    height: 150px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img-3 {
+    height: 150px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img-4 {
+    height: 150px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img-summary{
+    height: 300px;
+    position: relative;
+}
+
+.img-compare1{
+    height:300px;
+    position: relative;
+}
+
+.img-compare2{
+    height:300px;
+    position: relative;
+}
+
+.img-compare3{
+    height:300px;
+    position: relative;
+    margin-left:15px;
+}
+
+.img-compare4{
+    height:300px;
+    position: relative;
+    margin-left:15px;
+}
+
+/* CSS for smaller screen sizes */
+
+@media (max-width:1000px){
+    .img-1{
+        height: 320px;
+        margin-left: 15px;
+    }
+    .img-2{
+        height: 320px;
+        margin-left: 15px;
+    }
+    .img-3{
+        height: 320px;
+        margin-left: 15px;
+    }
+    .img-4{
+        height: 320px;
+        margin-left: 15px;
+    }
+
+    .img-summary{
+        height:320px;
+        margin-left: 15px;
+
+    }
+}
